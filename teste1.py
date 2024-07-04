@@ -114,3 +114,6 @@ butao11.grid(row=3, column=1, padx=20, pady=10)
 butao12.grid(row=3, column=2, padx=20, pady=10)
 
 root.mainloop()
+ResourceWarning~
+rer
+repr
