@@ -11,7 +11,7 @@ def ipconfig():
     print(coiso.stdout)
  
 def drivers():
-    COMMAND = 'start cmd /k "color 0c && DRIVERQUERY -v"'
+    COMMAND = "DRIVERQUERY"
     coiso = subprocess.run(COMMAND, capture_output=True, text=True, shell=True)
     print(coiso.stdout)
 
